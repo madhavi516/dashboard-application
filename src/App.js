@@ -5,7 +5,7 @@ import Profile from './pages/Profile';
 import UserDetails from './pages/UserDetails';
 
 const isGitHubPages = window.location.hostname.includes("github.io");
-const basename = isGitHubPages ? "/swift-dashboard-application" : "/";
+const basename = isGitHubPages ? "/dashboard-application" : "/";
 
 function App() {
   return (
